@@ -7,7 +7,7 @@ var box1, pig1;
 var backgroundImg;
 
 function preload() {
-    backgroundImg = loadImage("sprites/bg.png");
+    backgroundi = loadImage("sprites/bg.png");
 }
 
 function setup(){
@@ -38,7 +38,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background(backgroundi);
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
